@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_1"
+        android:icon="@drawable/ic_menu_search_holo_light"
+        app:showAsAction="always"
+        android:title="Search"/>
+    
+    <item
+        android:id="@+id/action_2"
+        android:icon="@drawable/chat_ic"
+        app:showAsAction="always"
+        android:title="Chats"/>
+    
+    
+     <item
+        android:id="@+id/action_3"
+        android:icon="@drawable/next_ic"
+       app:showAsAction="always"
+        android:title="Logout"/>
+
+</menu>

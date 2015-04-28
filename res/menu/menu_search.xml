@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_1"
+        android:icon="@drawable/setting_ic"
+        android:title="Settings"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_2"
+        android:icon="@drawable/chat_ic"
+        android:title="Chat List"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_3"
+        android:icon="@drawable/refresh_ic"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+
+</menu>

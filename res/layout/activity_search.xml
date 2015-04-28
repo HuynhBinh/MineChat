@@ -1,0 +1,381 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true" >
+
+    <!-- The main content view -->
+
+    <LinearLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <android.support.v7.widget.Toolbar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/my_awesome_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#fef8ec"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/layout_button_tittle"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_ab_back_holo_light_am" />
+
+                <TextView
+                    android:id="@+id/txttTittle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Group Settings" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/searchbar1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:gravity="center_vertical"
+                        android:paddingTop="0.5dp"
+                        android:text="#"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/txtSearchTag1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="tap here to type"
+                        android:imeOptions="actionDone"
+                        android:paddingLeft="1dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/searchbar2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:gravity="center_vertical"
+                        android:paddingTop="0.5dp"
+                        android:text="#"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/txtSearchTag2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="tap here to type"
+                        android:imeOptions="actionDone"
+                        android:paddingLeft="1dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/searchbar3"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:gravity="center_vertical"
+                        android:paddingTop="0.5dp"
+                        android:text="#"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/txtSearchTag3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="tap here to type"
+                        android:imeOptions="actionDone"
+                        android:paddingLeft="1dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/searchbar4"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:editable="false"
+                        android:gravity="center_vertical"
+                        android:paddingTop="0.5dp"
+                        android:text="#"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/txtSearchTag4"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="tap here to type"
+                        android:imeOptions="actionDone"
+                        android:paddingLeft="1dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/shadow7"
+                android:background="@drawable/shadow" >
+            </View>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/expanListBelowContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:padding="0dp" >
+
+                <ExpandableListView
+                    android:id="@+id/expanListBelow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="#ffffff"
+                    android:cacheColorHint="#00000000"
+                    android:groupIndicator="@drawable/indicator_selector"
+                    android:scrollbars="none" />
+
+                <RelativeLayout
+                    android:id="@+id/progressBarRelative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" >
+
+                    <com.es.hello.chat.view.ProgressView
+                        android:id="@+id/progressBar"
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:src="@drawable/loading" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/shadow10"
+                android:background="@drawable/shadow1" >
+            </View>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+
+    <RelativeLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="256dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#efefef"
+        android:clickable="true"
+        android:fitsSystemWindows="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <LinearLayout
+            android:id="@+id/left_drawer1"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnMoveDown"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#222222"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/txtTittleTrending"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRENDING #s"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#efefef"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnHello"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="#HELLO"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnTweeter"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="TWITTER"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnInstagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="INSTAGRAM"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnMyFavou"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="MY FAVOURITES"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listviewBelowTrend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="0dp"
+                android:background="#ffffff"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:paddingTop="0dp"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMoveDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="2dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingTop="8dp" >
+
+            <LinearLayout
+                android:layout_width="42dp"
+                android:layout_height="20dp"
+                android:background="@drawable/movedown" >
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

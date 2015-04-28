@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="AppTheme2" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme1" parent="@style/Theme.AppCompat.Light"></style>
+
+    <style name="StyledIndicators" parent="@style/AppTheme">
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+    </style>
+
+    <style name="CustomCirclePageIndicator">
+        <item name="fillColor">#00ff00</item>
+        <item name="strokeColor">#0000ff</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="radius">10dp</item>
+        <item name="centered">true</item>
+    </style>
+
+</resources>

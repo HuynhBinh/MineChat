@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="266dp"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/left_drawer"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_above="@+id/btnMoveDown" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#222222"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp" >
+
+                <TextView
+                    android:id="@+id/txtTittleTrending"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRENDING #s"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#efefef"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnHello"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="#HELLO"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnTweeter"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="TWITTER"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnInstagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="INSTAGRAM"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnMyFavou"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="MY FAVOURITES"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listviewBelowTrend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:background="#ffffff"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:paddingTop="15dp"
+                android:scrollbars="none" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+        android:id="@+id/btnMoveDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingBottom="6dp"
+        android:paddingTop="8dp" 
+        android:background="#ffffff"
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:layout_width="42dp"
+            android:layout_height="20dp"
+            android:background="@drawable/movedown" >
+        </LinearLayout>
+    </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>

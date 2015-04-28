@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/universal-image-loader-1.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/sugar-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/mint-4.0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quickblox-android-sdk-chat-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quickblox-android-sdk-content-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quickblox-android-sdk-core-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quickblox-android-sdk-messages-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/DevTool/adt-bundle-windows-x86_64-20140702/sdk/extras/google/gcm/gcm-client/dist/gcm.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_2"
+        android:icon="@drawable/icon_pen"
+        android:title="Choose photo"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_1"
+        android:icon="@drawable/ic_cab_done_holo_light"
+        android:title="Done"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chat="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_create_chat"
+        android:icon="@drawable/ic_cab_done_holo_light"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="Create Chat"/>
+
+</menu>

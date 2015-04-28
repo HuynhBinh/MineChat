@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_1"
+        android:icon="@drawable/setting_ic"
+       app:showAsAction="always"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/action_2"
+        android:icon="@drawable/ic_menu_search_holo_light"
+        app:showAsAction="always"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/moreover_ic"
+       app:showAsAction="always"
+        android:title="Others"
+        android:visible="true"/>
+
+</menu>
